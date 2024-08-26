@@ -1,0 +1,150 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Poppins,sans-serif;
+}
+.card{
+    width:900px;
+    height:800px;
+    position:relative;
+    top:100px;
+    margin:auto;
+}
+.shoe-background{
+    width:450px;
+    height:500px;
+    background-color: rgb(60, 60, 240);
+    display:inline-block;
+    position:absolute;
+    top:40px;
+    box-shadow: -10px 0 30px -5px rgb(90, 89, 89);
+}
+
+.shoe-background h1{
+    font-size:150px;
+    font-weight: 900;
+    color:#fff;
+    display:inline-block;
+    position:absolute;
+    top:50px;
+    left:20px;
+    opacity: 0.2;
+
+}
+.shoe-background .nike{
+    position:absolute;
+    width:600px;
+    height:400px;
+    top:85px;
+    right: 15px;
+    transform: rotate(-24deg);
+}
+.shoe-background .logo{
+    width:100px;
+    height:35px;
+    position:absolute;
+    top:15px;
+    left:20px;
+}
+.shoe-background i{
+    color:white;
+    font-size:50px;
+    position:absolute;
+    top:15px;
+    right:20px;
+}
+.shoe-info{
+    width:450px;
+    height:570px;
+    display:inline-block;
+    position: absolute;
+    top:0;
+    right:0;
+    padding:35px 40px;
+    box-shadow: 10px 0 30px -5px rgb(90, 89, 89);
+}
+.shoe-name{
+    border-bottom: 1px solid rgb(107, 105, 105);
+    padding-bottom:15px;
+    position: relative;
+}
+.shoe-name h1{
+    display: inline-block;
+    font-size: 30px;
+}
+.shoe-name h4{
+    font-size:18px;
+    font-weight: 500;
+}
+.shoe-name span{
+    display: inline-block;
+    background-color: rgb(59, 78, 248);
+    width:70px;
+    height:30px;
+    text-align: center;
+    border-radius:5px;
+    color:white;
+    position: absolute;
+    right:30px;
+    top:5px;
+    padding-top:5px;
+}
+.pro-info{
+    border-bottom: 1px solid rgb(107, 105, 105);
+    padding-top:15px;
+}
+.pro-info p{
+    padding:15px 0;
+}
+.color-list{
+    border-bottom: 1px solid #6b6969;
+    padding-top:15px;
+
+}
+.color-list span{
+    display: inline-block;
+    margin:15px 15px;
+    font-size:20px;
+}
+
+.size-number span{
+    display: inline-block;
+    width:40px;
+    height:35px;
+    background-color:rgb(235, 245, 248);
+    border-radius: 2px;
+    text-align: center;
+    padding-top:5px;
+    font-size: 20px;
+    margin:10px;
+    border-radius: 5px;
+}
+.size-number{
+    border-bottom: 1px solid #6b6969;
+    padding:20px 0;
+}
+.size-number .sample{
+    background-color: rgb(59, 78, 248);
+}
+.payment{
+    padding:30px 0;
+}
+.payment .addition{
+    display: inline-block;
+    width:200px;
+    height:50px;
+    background-color: rgb(59, 78, 248);
+    text-align: center;
+    padding-top:15px;
+    font-size: 20px;
+    color:white;
+}
+.payment .amount{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top:5px;
+    right:-70px;
+}

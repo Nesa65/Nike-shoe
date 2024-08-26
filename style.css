@@ -12,8 +12,8 @@
     margin:auto;
 }
 .shoe-background{
-    width:450px;
-    height:500px;
+    width:50%;
+    height:60%;
     background-color: rgb(60, 60, 240);
     display:inline-block;
     position:absolute;
@@ -55,8 +55,7 @@
     right:20px;
 }
 .shoe-info{
-    width:450px;
-    height:570px;
+    width:50%;
     display:inline-block;
     position: absolute;
     top:0;
